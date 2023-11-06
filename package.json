@@ -32,7 +32,8 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "unbuild"
   },
   "peerDependencies": {
     "@hotwired/stimulus": "^3.0.0"
