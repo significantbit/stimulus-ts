@@ -1,8 +1,8 @@
-# Typed Stimulus controllers
+# Typed Stimulus controllers<br>[![npm version](https://badge.fury.io/js/@sigbit%2Fstimulus-ts.svg)](https://www.npmjs.com/package/@sigbit/stimulus-ts)
 > 🤝&nbsp; Create type-safe Stimulus controllers
 
 ```sh
-npm install @hotwired/stimulus @sigbit/stimulus-ts
+$ npm install @hotwired/stimulus @sigbit/stimulus-ts
 ```
 
 ## Usage
