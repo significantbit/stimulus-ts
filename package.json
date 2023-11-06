@@ -2,6 +2,7 @@
   "name": "@sigbit/stimulus-ts",
   "description": "Create type-safe Stimulus controllers",
   "version": "1.0.0-alpha.1",
+  "private": false,
   "author": {
     "name": "Jacob Andersson",
     "author": "https://github.com/miii"
@@ -30,12 +31,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild"
+    "build": "unbuild",
+    "release": "standard-version"
   },
   "peerDependencies": {
     "@hotwired/stimulus": "^3.0.0"
   },
   "devDependencies": {
+    "standard-version": "^9.5.0",
     "typescript": "^5.2.2",
     "unbuild": "^2.0.0"
   }
